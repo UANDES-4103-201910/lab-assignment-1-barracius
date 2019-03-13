@@ -3,18 +3,14 @@ Base project for lab assignment 1
 
 Raimundo Gonzalez
 
-"Elements" tab:  The first tag that can be seen, its the <html op="news">...</html>, where thats the required format
-to start a html code. Inside the first tag (...), a <head>...</head> and a <body>...</body> tags can be seen, where
-they signal what's inside the head and the body of the page respectively. Looks like everything that is inside the
-head tag, isn't shown for the user. The text is done by using CSS, <link rel="stylesheet" type="text/css" href="news.css?5rgSLyaCjnnNgCLKQdUi">
-can be seen on the head tag. The body tag has a sub tag named center, <center>...</center>. Inside the center tag,
-there is a table tag, signalings the table's id, border, cellpading, cellspacing, width and background's color.
-<table id="hnmain" border="0" cellpadding="0" cellspacing="0" width="85%" bgcolor="#f6f6ef">...</table>. Inside, ther
-is a table body tag, <tbody>...</tbody>. Which is separated in 3 <tr>...</tr> tags, where each one represents one
-section of the page that the user can see, for instance, the first tr tag correspond to the orange rectangle on the top
+"Elements" tab:  The first tag that can be seen, its the html tag, required for commencing an html code.
+Inside the html tag, there is a head tag and a body tag, signalling what's inside the head and the body of the page respectively. 
+Looks like everything that is inside the head tag, isn't shown for the user. Except for the format of the text, where there is a CSS code on the head tag
+The body tag, has a center tag. Inside, there is a table tag, signaling the table's id, border, cellpading, cellspacing, width and background's color. 
+Inside the table tag, there is a table body or tbody tag. Which is separated in 3 tr tags, where each one represents one
+section of the page that the user can see, for instance, the first tr tag corresponds to the orange rectangle on the top
 of the page, the second is for the list with news on the center of the page, and the last one is the footer at the end
-of the page. Looks like to create the Hyper links the page uses a <a href="link of the page we wanna link">Name that's
-gonna show for the hyper link</a>.
+of the page. Looks like to create the Hyper links the page uses an "a" and "href" tag.
 
 "Sources" tab: 
 (index): When clicked it displays an html code, after reading it throughly, it's the same html code that is being displayed on
